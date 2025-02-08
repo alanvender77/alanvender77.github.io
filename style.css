@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'f4font'; /* Name your font family */
+    src: url('./fonts/ShareTechMono-Regular.ttf'); /* Locate the .ttf file within your directory*/
+  }
+
 body {    
-    /* background-color: aqua; */
+    background-color: #073605;
+    font-family: "f4font";
 }
 
 .main, .header, .footer {
@@ -25,16 +31,20 @@ body {
 
     text-align: center;
     font-size: 200%;
+    color: #199515;
 
     margin: 10px;
     padding: 15px;
-    border: 2px solid black;
+    border: 2px solid;
+    box-shadow: 0 0 10px #146c11;
+    text-shadow: 0 0 10px #146c11 ;
     /* background-color: green; */
 }
 
 .headerContent {
+
     width: 98%;
-    height: 100px;
+    height: 80px;
 }
 
 .mainContent{
@@ -56,3 +66,14 @@ body {
     padding: 10px;
 }
 
+.headerContextText{
+    margin: 5px;
+}
+
+.navBarText{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* pipBoy-logo: https://steamcommunity.com/sharedfiles/filedetails/?l=russian&id=498465882 */
+/* fallout4-terminal-font: https://fonts.google.com/selection  */
