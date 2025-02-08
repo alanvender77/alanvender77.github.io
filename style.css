@@ -6,6 +6,7 @@
 body {    
     background-color: #073605;
     font-family: "f4font";
+    overflow-x: hidden;
 }
 
 .main, .header, .footer {
@@ -75,5 +76,53 @@ body {
     justify-content: space-around;
 }
 
+.skillText {
+    display: block;
+
+    columns: 3;
+    
+    overflow: hidden;
+    text-align: left;
+    padding: 25px;
+    
+    width: 100%;
+    height: 80%;
+}
+
+#bio {
+    height: 360px;
+}
+
+.bioText{
+    display: block;
+
+    overflow: hidden;
+    text-align: justify;
+    
+    width: 100%;
+    height: 80%;
+}
+
+.photoImage {
+    max-height:100%; 
+    max-width:100%;
+    object-fit: cover;
+    border: 2px solid;
+}
+
+.projectsImage {
+    max-height:100%; 
+    max-width:100%;
+    object-fit: cover;
+    border: 2px solid;
+}
+
+#projects {
+    height: 800px;
+}
+
+#photo {
+    height: 1600px;
+}
 /* pipBoy-logo: https://steamcommunity.com/sharedfiles/filedetails/?l=russian&id=498465882 */
 /* fallout4-terminal-font: https://fonts.google.com/selection  */
