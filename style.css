@@ -1,18 +1,58 @@
-body {
-    flex-direction: column;
+body {    
     /* background-color: aqua; */
 }
 
-.mainContent {
+.main, .header, .footer {
     display: flex;
     
     align-items: center;
-    align-content: center;
+    flex-direction: column;
+
+    /* background-color: green; */
+}
+
+.footer {
+    display: flex;
+    
+    align-items: center;
+    flex-direction: row;
+
+    /* background-color: green; */
+}
+
+.mainContent, .headerContent, .footerContent{
+    display: block;
+
+    text-align: center;
+    font-size: 200%;
+
     margin: 10px;
-
-    width: 80%;
-    height: 200px;
-
+    padding: 15px;
     border: 2px solid black;
     /* background-color: green; */
 }
+
+.headerContent {
+    width: 98%;
+    height: 100px;
+}
+
+.mainContent{
+    width: 98%;
+    height: 500px;
+}
+
+.footerContent {
+    display: flex;
+
+    text-align: left;
+    font-size: 130%;
+
+    width: 98%;
+    height: 100px;
+}
+
+.footerLogo {
+    padding: 10px;
+}
+
